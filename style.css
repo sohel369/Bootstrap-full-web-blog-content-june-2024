@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: #031321; */
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    color: #000;
+    transition: .5s ease;
+}
+
+.navbar-brand:hover {
+    color: #a94141;
+}
+
+.nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+    /* font-size: 2rem; */
+    transition: .5s ease;
+    font-weight: 600;
+}
+
+.active {
+    color: green;
+}
+
+.nav-link:hover {
+    color: #411caf;
+}
+
+.search {
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(246, 26, 92);
+    margin-right: -50px;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    background: rgb(246, 26, 92);
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main {
+    background-image: url(https://www.shutterstock.com/image-photo/healthy-food-lunch-boxes-on-260nw-605649395.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+    background-size: cover;
+
+}
+
+.main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main .btn1 {
+    height: 46px;
+    width: 35%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    transition: .5s ease;
+    font-weight: 700;
+}
+
+.main .btn1:hover {
+    background: rgb(204, 14, 14);
+    color: #fff;
+}
+
+.new img {
+    height: 100px;
+    width: 100px;
+}
+
+.product .col-lg-4 {
+    display: flex;
+}
+
+.card:hover {
+    -webkit-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    transition: .5s ease;
+}
+.product .row button.btn0:hover{
+    -webkit-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    transition: .5s ease;
+}
