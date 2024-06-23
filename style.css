@@ -71,7 +71,7 @@ body {
     font-weight: 700;
 }
 
-.main .btn1 {
+.btn1 {
     height: 46px;
     width: 35%;
     outline: none;
@@ -79,11 +79,23 @@ body {
     border-radius: 60px;
     transition: .5s ease;
     font-weight: 700;
+    background: rgb(1, 71, 1);
 }
 
-.main .btn1:hover {
+.btn1:hover {
     background: rgb(204, 14, 14);
     color: #fff;
+    -webkit-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    transition: .5s ease;
+}
+
+.col-lg-4:hover {
+    -webkit-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    -moz-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
+    transition: .5s ease;
 }
 
 .new img {
@@ -101,7 +113,8 @@ body {
     box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
     transition: .5s ease;
 }
-.product .row button.btn0:hover{
+
+.product .row button.btn0:hover {
     -webkit-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
     -moz-box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
     box-shadow: 0px 0px 40px 11px rgba(0, 0, 0, 0.89);
